@@ -5,7 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/online-food-ordering-system.iml" filepath="$PROJECT_DIR$/.idea/online-food-ordering-system.iml" />
       <module fileurl="file://$PROJECT_DIR$/orderservice/order-service.iml" filepath="$PROJECT_DIR$/orderservice/order-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/restaurantservice/restaurantservice.iml" filepath="$PROJECT_DIR$/restaurantservice/restaurantservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/restaurantservice/restaurant-service.iml" filepath="$PROJECT_DIR$/restaurantservice/restaurant-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-service/user-service.iml" filepath="$PROJECT_DIR$/user-service/user-service.iml" />
     </modules>
   </component>

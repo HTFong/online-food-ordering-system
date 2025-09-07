@@ -10,13 +10,13 @@
         <module name="config-server" />
         <module name="user-service" />
         <module name="order-service" />
-        <module name="restaurantservice" />
+        <module name="restaurant-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="config-server" target="16" />
       <module name="order-service" target="16" />
-      <module name="restaurantservice" target="16" />
+      <module name="restaurant-service" target="16" />
       <module name="user-service" target="16" />
     </bytecodeTargetLevel>
   </component>
@@ -24,7 +24,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="config-server" options="-parameters" />
       <module name="order-service" options="-parameters" />
-      <module name="restaurantservice" options="-parameters" />
+      <module name="restaurant-service" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>
   </component>
