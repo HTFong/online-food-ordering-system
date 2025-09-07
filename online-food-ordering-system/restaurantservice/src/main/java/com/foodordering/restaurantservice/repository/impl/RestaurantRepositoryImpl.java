@@ -1,2 +1,4 @@
-package com.foodordering.restaurantservice.service.repository.impl;public class RestaurantRepositoryImpl {
+package com.foodordering.restaurantservice.repository.impl;
+
+public class RestaurantRepositoryImpl {
 }

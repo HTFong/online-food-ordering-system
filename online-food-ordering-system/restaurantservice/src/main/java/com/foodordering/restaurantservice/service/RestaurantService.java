@@ -1,2 +1,7 @@
-package com.foodordering.restaurantservice.service;public interface RestaurantService {
+package com.foodordering.restaurantservice.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public interface RestaurantService {
 }

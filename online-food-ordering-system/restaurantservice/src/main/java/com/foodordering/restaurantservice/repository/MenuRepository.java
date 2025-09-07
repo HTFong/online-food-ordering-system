@@ -1,2 +1,9 @@
-package com.foodordering.restaurantservice.service.repository;public interface MenuRepository {
+package com.foodordering.restaurantservice.repository;
+
+import com.foodordering.restaurantservice.entity.Menu;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface MenuRepository extends JpaRepository<Menu,Long> {
 }

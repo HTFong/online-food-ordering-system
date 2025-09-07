@@ -1,2 +1,4 @@
-package com.foodordering.orderservice.repository.impl;public class OrderItemRepositoryImpl {
+package com.foodordering.orderservice.repository.impl;
+
+public class OrderItemRepositoryImpl {
 }

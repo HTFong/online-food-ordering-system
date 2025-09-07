@@ -1,4 +1,4 @@
-package com.foodordering.userservice.dto;
+package com.foodordering.orderservice.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

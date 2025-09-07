@@ -1,2 +1,23 @@
-package com.foodordering.restaurantservice.service.repository.entity;public class Menu {
+package com.foodordering.restaurantservice.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import lombok.Data;
+
+@Entity
+@Data
+public class Menu {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    private String name;
+
+    private String description;
+
+    private Long restaurantId;
+
 }

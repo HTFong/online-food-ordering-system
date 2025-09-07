@@ -1,2 +1,4 @@
-package com.foodordering.restaurantservice.controller;public class RestaurantController {
+package com.foodordering.restaurantservice.controller;
+
+public class RestaurantController {
 }

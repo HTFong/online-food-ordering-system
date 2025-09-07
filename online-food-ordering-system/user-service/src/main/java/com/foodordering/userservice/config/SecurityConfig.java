@@ -1,2 +1,4 @@
-package com.foodordering.userservice.config;public class SecurityConfig {
+package com.foodordering.userservice.config;
+
+public class SecurityConfig {
 }

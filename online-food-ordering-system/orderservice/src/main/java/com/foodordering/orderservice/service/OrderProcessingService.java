@@ -1,2 +1,4 @@
-package com.foodordering.orderservice.service;public interface OrderProcessingService {
+package com.foodordering.orderservice.service;
+
+public interface OrderProcessingService {
 }
