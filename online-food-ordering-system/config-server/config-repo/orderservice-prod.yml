@@ -1,0 +1,13 @@
+build:
+  version: "prod-1.0"
+order:
+  orderId: 1
+  userId: 1
+  restaurantId: 11
+  totalAmount: 2000.00
+  status: DONE
+  createdAt: "2025-09-07T15:30:00"
+  orderItems:
+    - menuItemId: 301
+      quantity: 2
+      price: 1000.00

@@ -10,7 +10,7 @@ public class OrderserviceApplication {
     public static void main(String[] args) {
         ConfigurableApplicationContext context = SpringApplication.run(OrderserviceApplication.class, args);
         String buildVersion = context.getEnvironment().getProperty("build.version");
-        System.out.println("Build version: " + buildVersion);
+        System.err.println("Build version: " + buildVersion);
     }
 
 }
