@@ -1,23 +1,24 @@
+server:
+  port: 8888
 spring:
   application:
     name: "configserver"
   profiles:
-    active: native
-  #    active: git
+#    active: native
+    active: git
   cloud:
     config:
       server:
-        native:
-#          search-locations: "classpath:/config"
-#           search-locations: "file:///Users//eazybytes//Documents//config"
+#    native:
+#              search-locations: "classpath:/config"
+#              search-locations: "file:///Users//eazybytes//Documents//config"
         git:
-          uri: "https://github.com/your-github-repo"
+          uri: "https://github.com/HTFong/online-food-ordering-system/tree/main/online-food-ordering-system/config-server/config-repo"
           default-label: main
           timeout: 5
           clone-on-start: true
           force-pull: true
-server:
-  port: 8888
+
 management:
   endpoints:
     web:

@@ -4,6 +4,10 @@ server:
 spring:
   application:
     name: orderservice
+  profiles:
+    active: "prod"
+  config:
+    import: "optional:configserver:http://localhost:8888/"
   datasource:
     url: jdbc:mysql://localhost:3307/food_ordering
     username: root
