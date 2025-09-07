@@ -1,5 +1,5 @@
 build:
-  version: "1.0"
+  version: "prod-1.0"
 order:
   orderId: 1
   userId: 1

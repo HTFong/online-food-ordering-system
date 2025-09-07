@@ -13,7 +13,8 @@ spring:
 #              search-locations: "classpath:/config"
 #              search-locations: "file:///Users//eazybytes//Documents//config"
         git:
-          uri: "https://github.com/HTFong/online-food-ordering-system/tree/main/online-food-ordering-system/config-server/config-repo"
+          uri: "https://github.com/HTFong/online-food-ordering-system"
+          search-paths: "online-food-ordering-system/config-server/config-repo"
           default-label: main
           timeout: 5
           clone-on-start: true
